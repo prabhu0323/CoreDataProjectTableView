@@ -13,6 +13,8 @@
 		042E332820A1C33100BBB2CD /* CoreDataProjectTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 042E332620A1C33100BBB2CD /* CoreDataProjectTableView.xcdatamodeld */; };
 		042E332A20A1C33100BBB2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042E332920A1C33100BBB2CD /* Assets.xcassets */; };
 		042E332D20A1C33100BBB2CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042E332B20A1C33100BBB2CD /* LaunchScreen.storyboard */; };
+		042E333520A1C37E00BBB2CD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E333420A1C37E00BBB2CD /* TableViewCell.swift */; };
+		042E333720A1C38900BBB2CD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E333620A1C38900BBB2CD /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		042E332920A1C33100BBB2CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042E332C20A1C33100BBB2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042E332E20A1C33100BBB2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042E333420A1C37E00BBB2CD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		042E333620A1C38900BBB2CD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				042E331F20A1C33000BBB2CD /* AppDelegate.swift */,
 				042E332120A1C33000BBB2CD /* ViewController.swift */,
 				042E332320A1C33100BBB2CD /* Main.storyboard */,
+				042E333420A1C37E00BBB2CD /* TableViewCell.swift */,
+				042E333620A1C38900BBB2CD /* TableViewController.swift */,
 				042E332920A1C33100BBB2CD /* Assets.xcassets */,
 				042E332B20A1C33100BBB2CD /* LaunchScreen.storyboard */,
 				042E332E20A1C33100BBB2CD /* Info.plist */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				042E332820A1C33100BBB2CD /* CoreDataProjectTableView.xcdatamodeld in Sources */,
+				042E333520A1C37E00BBB2CD /* TableViewCell.swift in Sources */,
 				042E332220A1C33000BBB2CD /* ViewController.swift in Sources */,
+				042E333720A1C38900BBB2CD /* TableViewController.swift in Sources */,
 				042E332020A1C33000BBB2CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
